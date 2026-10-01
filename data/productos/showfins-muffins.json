@@ -1,0 +1,20 @@
+{
+  "nombre": "Showfins (choco chips flat muffins)",
+  "categoria": "Muffins",
+  "variantes": [
+    {
+      "nombre": "Unidad (120 g)",
+      "precio": 2450
+    },
+    {
+      "nombre": "Media docena",
+      "precio": 13500
+    }
+  ],
+  "descripcion": "Muffins planos de chocolate chips, aptos para veganos, con frosting y mucho brillo.",
+  "etiqueta": "Vegano",
+  "foto": "img/productos/showfins-muffins.jpg",
+  "destacado": false,
+  "orden": 9,
+  "visible": true
+}

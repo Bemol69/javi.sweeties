@@ -1,0 +1,16 @@
+{
+  "nombre": "Torta hojarasca de frambuesa",
+  "categoria": "Tortas",
+  "variantes": [
+    {
+      "nombre": "Torta (12 a 16 porciones)",
+      "precio": 35000
+    }
+  ],
+  "descripcion": "Hojarasca rellena con manjar, crema y frambuesas, cubierta con un suave merengue suizo tostado. Precio de la edición Día de la Madre.",
+  "etiqueta": "Edición Día de la Madre",
+  "foto": "img/productos/torta-hojarasca.jpg",
+  "destacado": true,
+  "orden": 1,
+  "visible": true
+}

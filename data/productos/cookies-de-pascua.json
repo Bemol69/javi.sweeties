@@ -1,0 +1,20 @@
+{
+  "nombre": "Cookies nidito de Pascua",
+  "categoria": "Cookies",
+  "variantes": [
+    {
+      "nombre": "Cookie individual",
+      "precio": 2500
+    },
+    {
+      "nombre": "Caja de 6 cookies",
+      "precio": 13000
+    }
+  ],
+  "descripcion": "Carrot cake con frosting de queso crema, full chocolate con manjar o chocochips con crema de avellanas, llenas de huevitos de chocolate.",
+  "etiqueta": "Edición limitada",
+  "foto": "img/productos/cookies-de-pascua.jpg",
+  "destacado": false,
+  "orden": 4,
+  "visible": true
+}

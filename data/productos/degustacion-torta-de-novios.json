@@ -1,0 +1,16 @@
+{
+  "nombre": "Degustación torta de novios",
+  "categoria": "Tortas",
+  "variantes": [
+    {
+      "nombre": "Cotización personalizada",
+      "precio": null
+    }
+  ],
+  "descripcion": "Packaging de degustación pensado para cada pareja. Se agenda una vez hecha la cotización y confirmada la reserva.",
+  "etiqueta": "A cotizar",
+  "foto": "img/productos/degustacion-torta-de-novios.jpg",
+  "destacado": false,
+  "orden": 5,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "_ayuda": "Datos fijos del sitio (los define el desarrollador). Contacto, zonas y portada van en data/ajustes.json, que el cliente edita desde /admin.",
+  "nombre": "Javi'Sweeties",
+  "rubro": "Pastelería y dulcería artesanal",
+  "schema_tipo": "Bakery",
+  "seo_titulo": "Javi'Sweeties | Pastelería y dulcería artesanal en Ñuñoa, Santiago",
+  "seo_descripcion": "Cookies, tortas, muffins, chocolates y cajitas hechas con cariño en Ñuñoa. Arma tu bolsa y pide por WhatsApp con 24 horas de anticipación.",
+  "github_repo": "Bemol69/javi.sweeties",
+  "site_url": "https://javisweeties.vercel.app",
+  "google_verificacion": "",
+  "fuentes": { "titulos": "Fraunces", "texto": "Nunito" },
+  "colores": {
+    "fondo": "#FBF5EA", "papel": "#FFFDF8", "tinta": "#4A3428", "tinta_suave": "#8A7466",
+    "durazno": "#EE9B76", "coral": "#E0714B", "rubor": "#F9DCCD", "salvia": "#A9B88F", "salvia_oscuro": "#5E7350", "lino": "#EFE3CF"
+  }
+}

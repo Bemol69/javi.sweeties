@@ -1,0 +1,59 @@
+backend:
+  name: github
+  repo: Bemol69/javi.sweeties
+  branch: main
+media_folder: img/productos
+public_folder: /img/productos
+locale: es
+site_url: https://javisweeties.vercel.app
+collections:
+  - name: productos
+    label: Productos
+    label_singular: Producto
+    folder: data/productos
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    identifier_field: nombre
+    summary: "{{nombre}} · {{categoria}}"
+    fields:
+      - { label: Nombre, name: nombre, widget: string, hint: "Ej: Cookie Box" }
+      - { label: Categoría, name: categoria, widget: string, hint: "Ej: Cookies, Tortas, Muffins, Chocolates, Cajitas" }
+      - label: Formatos y precios
+        name: variantes
+        widget: list
+        hint: "Un formato por línea. Deja el precio vacío si es para cotizar por WhatsApp."
+        fields:
+          - { label: Formato, name: nombre, widget: string, hint: "Ej: Caja de 6" }
+          - { label: Precio (CLP), name: precio, widget: number, value_type: int, required: false, hint: "Solo números, sin puntos. Ej: 13000" }
+      - { label: Descripción, name: descripcion, widget: text, hint: "Qué es, sabores, tamaño." }
+      - { label: Etiqueta, name: etiqueta, widget: string, required: false, hint: "Ej: Nuevo, Edición limitada" }
+      - { label: Foto, name: foto, widget: image, hint: "Foto vertical, desde el celular." }
+      - { label: Destacado, name: destacado, widget: boolean, default: false }
+      - { label: Orden, name: orden, widget: number, value_type: int, default: 50, hint: "1 aparece primero" }
+      - { label: Visible, name: visible, widget: boolean, default: true }
+  - name: ajustes
+    label: Ajustes
+    files:
+      - name: ajustes
+        label: Contacto, entregas y portada
+        file: data/ajustes.json
+        format: json
+        fields:
+          - { label: WhatsApp, name: whatsapp, widget: string, pattern: ["^569\d{8}$", "Formato 569XXXXXXXX, sin + ni espacios"], hint: "Ej: 56912345678" }
+          - { label: Mensaje por defecto, name: mensaje_defecto, widget: string }
+          - { label: Instagram (usuario), name: instagram, widget: string }
+          - { label: Correo, name: correo, widget: string, required: false }
+          - { label: Seguidores, name: seguidores, widget: string, hint: "Ej: 10,2 mil" }
+          - { label: Publicaciones, name: publicaciones, widget: string }
+          - { label: Ciudad, name: ciudad, widget: string }
+          - { label: Comuna de retiro, name: comuna_retiro, widget: string, hint: "Ej: Ñuñoa" }
+          - { label: Punto de retiro (para el mapa), name: direccion_retiro, widget: string, required: false, hint: "Déjalo vacío para ocultar el mapa" }
+          - { label: Despacho desde (CLP), name: despacho_desde, widget: number, value_type: int }
+          - { label: Zonas de despacho, name: zonas, widget: list, field: { label: Zona, name: zona, widget: string } }
+          - { label: Anticipación, name: anticipacion, widget: string, hint: "Ej: 24 horas" }
+          - { label: Lema, name: lema, widget: string }
+          - { label: Título de portada, name: hero_titulo, widget: string }
+          - { label: Texto de portada, name: hero_texto, widget: text }
+          - { label: Historia de Javi, name: historia, widget: text }

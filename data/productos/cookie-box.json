@@ -1,0 +1,20 @@
+{
+  "nombre": "Cookie Box",
+  "categoria": "Cookies",
+  "variantes": [
+    {
+      "nombre": "Caja de 6",
+      "precio": 13000
+    },
+    {
+      "nombre": "Caja de 12",
+      "precio": 24000
+    }
+  ],
+  "descripcion": "Suaves, dulces y adictivas. Combina tus sabores favoritos entre los 12 disponibles.",
+  "etiqueta": "Más pedida",
+  "foto": "img/productos/cookie-box.jpg",
+  "destacado": false,
+  "orden": 8,
+  "visible": true
+}

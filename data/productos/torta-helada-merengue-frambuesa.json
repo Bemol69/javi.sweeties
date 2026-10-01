@@ -1,0 +1,16 @@
+{
+  "nombre": "Torta helada de merengue y frambuesa",
+  "categoria": "Tortas",
+  "variantes": [
+    {
+      "nombre": "Torta (12 a 15 personas)",
+      "precio": 35000
+    }
+  ],
+  "descripcion": "Torta helada de merengue con frambuesa para celebrar. Fue una edición navideña con cupos limitados.",
+  "etiqueta": "Edición Navidad",
+  "foto": "img/productos/torta-helada-merengue-frambuesa.jpg",
+  "destacado": false,
+  "orden": 6,
+  "visible": true
+}

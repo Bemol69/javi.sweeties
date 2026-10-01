@@ -1,0 +1,8 @@
+{
+  "name": "javi-sweeties",
+  "private": true,
+  "description": "Demo Javi'Sweeties: sitio estático + bolsa a WhatsApp + panel /admin. El build optimiza las fotos con sharp.",
+  "scripts": { "build": "node scripts/build.mjs" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "sharp": "^0.34.4" }
+}

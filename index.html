@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>%%SEO_TITULO%%</title>
+<meta name="description" content="%%SEO_DESC%%">
+<link rel="canonical" href="%%CANONICAL%%/">
+<meta name="theme-color" content="#FBF5EA">
+<meta property="og:type" content="website">
+<meta property="og:title" content="%%SEO_TITULO%%">
+<meta property="og:description" content="%%SEO_DESC%%">
+<meta property="og:url" content="%%CANONICAL%%/">
+<meta property="og:locale" content="es_CL">
+<meta property="og:image" content="%%CANONICAL%%/%%HERO_IMG%%">
+<meta name="twitter:card" content="summary_large_image">
+<!-- SI:GOOGLE --><meta name="google-site-verification" content="%%GOOGLE_VER%%"><!-- /SI:GOOGLE -->
+<link rel="icon" href="img/_opt/logo-160.webp" type="image/webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="%%CSS%%">
+<script>document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">%%JSONLD%%</script>
+</head>
+<body>
+<a class="saltar" href="#productos">Ir a los productos</a>
+
+<header class="nav" id="nav">
+  <a class="marca" href="#top" aria-label="%%NOMBRE%% inicio"><img src="img/_opt/logo-160.webp" alt="" width="40" height="40"><span>Javi'<em>Sweeties</em></span></a>
+  <nav class="nav__links" aria-label="Principal">
+    <a href="#productos">Productos</a><a href="#como">Cómo pedir</a><a href="#javi">Sobre Javi</a><a href="#entregas">Entregas</a>
+  </nav>
+  <button class="bolsa-btn" id="abrirBolsa" type="button" aria-label="Abrir mi bolsa">
+    <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><path d="M6 11h20l-1.6 16a2 2 0 0 1-2 1.8H9.6a2 2 0 0 1-2-1.8L6 11Z" fill="currentColor"/><path d="M11 13V9a5 5 0 0 1 10 0v4" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+    <span class="bolsa-btn__n" id="bolsaN" hidden>0</span>
+  </button>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero__texto">
+      <p class="hero__lema">✿ %%LEMA%%</p>
+      <h1>%%HERO_TITULO%%</h1>
+      <p class="hero__p">%%HERO_TEXTO%%</p>
+      <div class="hero__cta">
+        <a class="btn btn--grande" href="#productos">Armar mi bolsa</a>
+        <!-- SI:WHATSAPP --><a class="btn btn--linea" href="%%WA_URL%%" target="_blank" rel="noopener">Escribir por WhatsApp</a><!-- /SI:WHATSAPP -->
+      </div>
+      <p class="hero__nota">Pedidos con <strong>%%ANTICIPACION%%</strong> de anticipación · Retiro en %%COMUNA%%</p>
+    </div>
+    <div class="hero__fotos" aria-hidden="false">
+      <div class="arco arco--grande"><img src="%%HERO_IMG%%" alt="%%HERO_ALT%%" width="900" height="1200" fetchpriority="high"></div>
+      <div class="arco arco--b"><img src="%%FOTO_B%%" alt="" width="480" height="600"></div>
+      <div class="arco arco--c"><img src="%%FOTO_C%%" alt="" width="480" height="600"></div>
+      <span class="flor flor--1" aria-hidden="true">✿</span><span class="flor flor--2" aria-hidden="true">❀</span>
+    </div>
+  </section>
+
+  <div class="cinta" aria-hidden="true">
+    <div class="cinta__pista">
+      <span>Cookies</span><i>✿</i><span>Tortas</span><i>✿</i><span>Muffins</span><i>✿</i><span>Chocolates</span><i>✿</i><span>Cajitas</span><i>✿</i><span>Hecho con cariño</span><i>✿</i>
+      <span>Cookies</span><i>✿</i><span>Tortas</span><i>✿</i><span>Muffins</span><i>✿</i><span>Chocolates</span><i>✿</i><span>Cajitas</span><i>✿</i><span>Hecho con cariño</span><i>✿</i>
+    </div>
+  </div>
+
+  <section class="seccion" id="productos">
+    <div class="seccion__cab reveal">
+      <p class="sobre">La vitrina</p>
+      <h2>Elige, agrega a tu bolsa y listo</h2>
+      <p class="seccion__p">Los precios son los de las últimas publicaciones de Instagram. Las ediciones especiales pueden cambiar.</p>
+    </div>
+    <!-- SI:FILTROS --><div class="filtros reveal" id="filtros" role="group" aria-label="Filtrar por categoría">%%FILTROS%%</div><!-- /SI:FILTROS -->
+    <div class="grilla" id="grilla">
+%%TARJETAS%%
+    </div>
+  </section>
+
+  <section class="seccion pasos" id="como">
+    <div class="seccion__cab reveal"><p class="sobre">Cómo pedir</p><h2>Tres pasos y a esperar lo rico</h2></div>
+    <ol class="pasos__lista">
+      <li class="reveal"><span class="paso-n">1</span><h3>Arma tu bolsa</h3><p>Agrega lo que te tentó. Puedes mezclar tortas, cookies y cajitas.</p></li>
+      <li class="reveal"><span class="paso-n">2</span><h3>Cuéntanos cómo y cuándo</h3><p>Elige retiro o despacho, la fecha y deja tus notas. Pide con %%ANTICIPACION%% de anticipación.</p></li>
+      <li class="reveal"><span class="paso-n">3</span><h3>Confirma por WhatsApp</h3><p>Tu pedido llega ordenado a Javi, que confirma disponibilidad y forma de pago.</p></li>
+    </ol>
+  </section>
+
+  <section class="seccion javi" id="javi">
+    <div class="javi__caja reveal">
+      <img class="javi__logo" src="img/_opt/logo-160.webp" alt="Logo de Javi'Sweeties" width="120" height="120" loading="lazy">
+      <div>
+        <p class="sobre">Sobre Javi</p>
+        <h2>Pastelería con historia y mucho cariño</h2>
+        <p>%%HISTORIA%%</p>
+        <ul class="cifras">
+          <li><strong data-cuenta="%%SEGUIDORES%%">%%SEGUIDORES%%</strong><span>seguidores en Instagram</span></li>
+          <li><strong data-cuenta="%%PUBLICACIONES%%">%%PUBLICACIONES%%</strong><span>publicaciones de dulzura</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion entregas" id="entregas">
+    <div class="seccion__cab reveal"><p class="sobre">Entregas</p><h2>Retira o recibe en tu casa</h2></div>
+    <div class="entregas__cols">
+      <div class="reveal"><h3>🏡 Retiro</h3><p>Retiro sin costo en %%COMUNA%%, todos los días. Coordinamos el punto exacto por WhatsApp.</p></div>
+      <div class="reveal"><h3>🚚 Despacho</h3><p>Desde %%DESPACHO%% según comuna, de lunes a viernes. Cobertura:</p><ul class="zonas">%%ZONAS%%</ul></div>
+    </div>
+    <!-- SI:MAPA -->
+    <div class="mapa reveal" id="mapa" data-src="%%MAPA_SRC%%" data-titulo="%%MAPA_TITULO%%">
+      <div class="mapa__ph"><p>📍 Zona de retiro: %%DIRECCION%%</p><button class="btn btn--linea" type="button" id="verMapa">Ver mapa</button></div>
+    </div>
+    <p class="mapa__link"><a class="btn btn--linea" href="%%MAPA_URL%%" target="_blank" rel="noopener">Cómo llegar</a></p>
+    <!-- /SI:MAPA -->
+  </section>
+
+  <section class="seccion contacto" id="contacto">
+    <div class="contacto__caja reveal">
+      <h2>¿Dudas o un encargo especial?</h2>
+      <p>Tortas para eventos, cajitas personalizadas o lo que tengas en mente. Escríbenos.</p>
+      <div class="hero__cta">
+        <!-- SI:WHATSAPP --><a class="btn btn--grande" href="%%WA_URL%%" target="_blank" rel="noopener">Escribir por WhatsApp</a><!-- /SI:WHATSAPP -->
+        <a class="btn btn--linea" href="%%IG_URL%%" target="_blank" rel="noopener">@%%IG_USER%% en Instagram</a>
+      </div>
+      <!-- SI:CORREO --><p class="contacto__mail">%%CORREO%%</p><!-- /SI:CORREO -->
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <p>© %%ANIO%% %%NOMBRE%% · Hecho con cariño en Santiago</p>
+  <p class="pie__demo">Página de muestra creada por RunClick Webs</p>
+</footer>
+
+<!-- SI:WHATSAPP -->
+<a class="wa-flotante" href="%%WA_URL%%" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+  <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><path fill="#fff" d="M16 3a13 13 0 0 0-11 19.9L3 29l6.300-2A13 13 0 1 0 16 3Zm0 2.400A10.600 10.600 0 1 1 9.600 24.300l-.4-.3-3.700 1.200 1.200-3.600-.3-.4A10.600 10.600 0 0 1 16 5.400Zm-4 5.300c-.3 0-.7.100-1 .5-.4.400-1.300 1.300-1.300 3.100s1.300 3.600 1.500 3.800c.2.300 2.600 4.100 6.400 5.600 3.100 1.200 3.700 1 4.400.9.700-.1 2.200-.9 2.500-1.800.3-.9.300-1.600.2-1.800l-.7-.4-2.400-1.100c-.3-.1-.6-.2-.8.200l-1.100 1.300c-.2.200-.4.300-.7.100-.4-.2-1.500-.6-2.800-1.700-1-.9-1.700-2-1.900-2.400-.2-.3 0-.5.200-.7l.5-.6.300-.5v-.5l-1.100-2.600c-.3-.7-.6-.6-.8-.6Z"/></svg>
+</a>
+<!-- /SI:WHATSAPP -->
+
+<div class="velo" id="velo" hidden></div>
+<aside class="cajon" id="cajon" aria-label="Mi bolsa" aria-hidden="true" tabindex="-1">
+  <div class="cajon__cab"><h2>Mi bolsa</h2><button class="cerrar" id="cerrarBolsa" type="button" aria-label="Cerrar bolsa">✕</button></div>
+  <div class="cajon__cuerpo" id="bolsaCuerpo"></div>
+</aside>
+
+<div class="aviso" id="aviso" role="status" aria-live="polite" hidden></div>
+
+<script type="application/json" id="appCfg">%%APP_CONFIG%%</script>
+<script src="%%JS%%" defer></script>
+</body>
+</html>

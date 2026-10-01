@@ -1,0 +1,16 @@
+{
+  "nombre": "Ramo de cookies",
+  "categoria": "Cookies",
+  "variantes": [
+    {
+      "nombre": "Ramo de 5 cookies",
+      "precio": 14000
+    }
+  ],
+  "descripcion": "5 galletas a elección: red velvet con frosting de queso crema, chocochips con crema de avellanas y chocolate, o cheesecake de frambuesa.",
+  "etiqueta": "Para regalar",
+  "foto": "img/productos/ramo-de-cookies.jpg",
+  "destacado": false,
+  "orden": 2,
+  "visible": true
+}

@@ -1,0 +1,16 @@
+{
+  "nombre": "Cajita de galletas de jengibre y miel",
+  "categoria": "Cajitas",
+  "variantes": [
+    {
+      "nombre": "Cajita (12 galletas)",
+      "precio": 13000
+    }
+  ],
+  "descripcion": "Doce galletitas de jengibre y miel decoradas a mano, listas para regalar.",
+  "etiqueta": "Edición Navidad",
+  "foto": "img/productos/cajita-navidena-jengibre.jpg",
+  "destacado": false,
+  "orden": 7,
+  "visible": true
+}

@@ -1,0 +1,20 @@
+{
+  "nombre": "Cajitas de dulces chilenos",
+  "categoria": "Cajitas",
+  "variantes": [
+    {
+      "nombre": "Tradicional",
+      "precio": 15000
+    },
+    {
+      "nombre": "Premium",
+      "precio": 20000
+    }
+  ],
+  "descripcion": "Cachitos, alfajores, empolvados, cuchuflís, calugas y más. Se puede armar un surtido por media docena o docena. Edición de Fiestas Patrias.",
+  "etiqueta": "Edición Fiestas Patrias",
+  "foto": "img/productos/cajitas-dulces-chilenos.jpg",
+  "destacado": false,
+  "orden": 10,
+  "visible": true
+}

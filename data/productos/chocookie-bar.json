@@ -1,0 +1,20 @@
+{
+  "nombre": "ChoCookie Bar",
+  "categoria": "Chocolates",
+  "variantes": [
+    {
+      "nombre": "70 g",
+      "precio": 5000
+    },
+    {
+      "nombre": "150 g",
+      "precio": 8000
+    }
+  ],
+  "descripcion": "Chocolate + masa de galleta + chips. Crujiente por fuera, suave por dentro. En leche, blanco o semi bitter.",
+  "etiqueta": "Nuevo",
+  "foto": "img/productos/chocookie-bar.jpg",
+  "destacado": false,
+  "orden": 3,
+  "visible": true
+}
