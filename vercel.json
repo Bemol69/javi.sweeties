@@ -6,7 +6,8 @@
   "headers": [
     { "source": "/admin(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] },
     { "source": "/img/_opt/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
-    { "source": "/(styles|app)\.(.*)\.(css|js)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
+    { "source": "/styles.:hash.css", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
+    { "source": "/app.:hash.js", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
     { "source": "/data/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }] }
   ]
 }
